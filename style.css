@@ -1,0 +1,39 @@
+.logo{
+    width: 50px;
+}
+.container-fluid{
+    position: relative; 
+    border-radius: -18px;
+    bottom: 6px;
+    background-image: linear-gradient(200deg, lightblue, white);
+}
+.btn-outline-success{
+    background: white;
+    color: black;
+    font-weight: 50%;
+    /* font-weight: 100; */
+    font-weight: 500;
+}
+.form-floating>.form-control{
+    height: calc(20.5rem + calc(var(--bs-border-width)* 2));
+    min-height: calc(3.5rem + calc(var(--bs-border-width)* 2));
+    line-height: 1.25;
+   background-image: linear-gradient(200deg,lightblue,white);
+   border: 2px solid black;
+   top: 1px;
+   position: absolute;
+   color: black;
+   font-size: 1.2rem;
+   font-weight: bold;
+   font-family: cursive;
+}
+.btn-outline-primary{
+    position: relative;
+    top: 370px;
+    left: 40%;
+    width: 20%;
+    height: 80px;
+    border-radius: 90px;
+    font-size: 1.5rem;
+    color: black;
+}
